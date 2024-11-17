@@ -1,0 +1,30 @@
+*{
+  font-family: JetBrains Mono   ;
+  font-weight: 600;
+ /* background-color: rgb(245, 245, 248); */
+}
+
+
+/* .ProductCol{
+ width: auto;
+
+ height: auto;
+ background-color: #F5F5F8;
+} */
+/* .img1{
+width: 210px;
+height: 250px;
+padding-top:30px;
+; */
+
+.Btnbuy{
+    background-color: black;
+    color: white;
+    width: 99%;
+}
+.textPrice{
+    font-size: 18px;
+}
+.textPrice1{
+    font-size: 12px;
+}
