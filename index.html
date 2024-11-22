@@ -38,9 +38,9 @@
   <body>
     <!--nav-->
 
-    <nav class="navbar navbar-expand-lg bg-body-light ">
+    <nav class="navbar navbar-expand-lg bg-body-light pb-3 pt-3">
       <div class="container-fluid  m-0">
-        <a class="navbar-brand text-bold " href="#"><i class="fa-solid fa-mobile"></i>Mobile Store </a>
+        <a class="navbar-brand text-bold " href="#"><i class="fa-solid fa-mobile"></i> Mobile Store </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -53,43 +53,76 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
-          <ul class="navbar-nav m-auto mb-2 mb-lg-0 ">
-            <li class="nav-item mx-5">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+            <li class="nav-item mx-4">
               <a class="nav-link active Navtext text-secondary text-center" aria-current="page" href="#"
-                ><span class="Navtext">iPhone</span></a
+                ><span class="Navtext">Home</span></a
               >
             </li>
-            <li class="nav-item mx-5">
+            <li class="nav-item mx-4">
+              <a class="nav-link active Navtext text-secondary text-center" aria-current="page" href="Huawei.html"
+                ><span class="Navtext">Huawei</span></a
+              >
+            </li>
+            <li class="nav-item mx-4">
               <a class="nav-link active Navtext  text-secondary text-center" aria-current="page" href="#"
                 > <span class="Navtext">Samsung</span></a
               >
             </li>
-            <li class="nav-item mx-5">
-              <a class="nav-link active Navtext  text-secondary text-center" aria-current="page" href="#"><span class="Navtext">Xiaomi</span></a>
+            <li class="nav-item mx-4">
+              <a class="nav-link active Navtext  text-secondary text-center" aria-current="page" href="xiaomi.html"><span class="Navtext">Poco</span></a>
             </li>
             <li class="nav-item mx-5">
-              <a class="nav-link active   text-secondary text-center" aria-current="page" href="#vivo"
+              <a class="nav-link active   text-secondary text-center" aria-current="page" href="vivo.html"
                 ><span class="Navtext"> Vivo</span></a
               >
-            </li>
-          </ul>
+            </li> 
+            <li class="nav-item mx-5 m-auto  ">
 
-          <ul class="navbar-nav m-auto mb-2 mb-lg-0 justify-content-center">
-            <li class="nav-item mx-3">
-              <a class="nav-link active text-center" aria-current="page" href="#">
-                <i class="fa-regular fa-user"></i
-              ></a>
+             <div class=" d-flex gap-5 mx-md-0 justify-content-center align-items-center "> 
+              <!-- <a class="nav-link active Navtext" aria-current="page" href="#">
+              <i class="fa-regular fa-user "></i>
+              
+            </a> -->
+            <div class="dropdown">
+              <button class="btn btn-transparent dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-regular fa-user "></i
+                  >
+              </button>
+              <ul class="dropdown-menu">
+                <li>
+                  <div class="card-profile">
+                    <div class="profileImage-profile">
+                      <svg viewBox="0 0 128 128"><circle r="60" fill="transparent" cy="64" cx="64"></circle><circle r="48" fill="transparent" cy="64" cx="64"></circle><path fill="#191919" d="m64 14a32 32 0 0 1 32 32v41a6 6 0 0 1 -6 6h-52a6 6 0 0 1 -6-6v-41a32 32 0 0 1 32-32z"></path><path opacity="1" fill="#191919" d="m62.73 22h2.54a23.73 23.73 0 0 1 23.73 23.73v42.82a4.45 4.45 0 0 1 -4.45 4.45h-41.1a4.45 4.45 0 0 1 -4.45-4.45v-42.82a23.73 23.73 0 0 1 23.73-23.73z"></path><circle r="7" fill="#fbc0aa" cy="65" cx="89"></circle><path fill="#4bc190" d="m64 124a59.67 59.67 0 0 0 34.69-11.06l-3.32-9.3a10 10 0 0 0 -9.37-6.64h-43.95a10 10 0 0 0 -9.42 6.64l-3.32 9.3a59.67 59.67 0 0 0 34.69 11.06z"></path><path opacity=".3" fill="#356cb6" d="m45 110 5.55 2.92-2.55 8.92a60.14 60.14 0 0 0 9 1.74v-27.08l-12.38 10.25a2 2 0 0 0 .38 3.25z"></path><path opacity=".3" fill="#356cb6" d="m71 96.5v27.09a60.14 60.14 0 0 0 9-1.74l-2.54-8.93 5.54-2.92a2 2 0 0 0 .41-3.25z"></path><path fill="#fff" d="m57 123.68a58.54 58.54 0 0 0 14 0v-25.68h-14z"></path><path stroke-width="14" stroke-linejoin="round" stroke-linecap="round" stroke="#fbc0aa" fill="none" d="m64 88.75v9.75"></path><circle r="7" fill="#fbc0aa" cy="65" cx="39"></circle><path fill="#ffd8ca" d="m64 91a25 25 0 0 1 -25-25v-16.48a25 25 0 1 1 50 0v16.48a25 25 0 0 1 -25 25z"></path><path fill="#191919" d="m91.49 51.12v-4.72c0-14.95-11.71-27.61-26.66-28a27.51 27.51 0 0 0 -28.32 27.42v5.33a2 2 0 0 0 2 2h6.81a8 8 0 0 0 6.5-3.33l4.94-6.88a18.45 18.45 0 0 1 1.37 1.63 22.84 22.84 0 0 0 17.87 8.58h13.45a2 2 0 0 0 2.04-2.03z"></path><path style="fill:none;stroke-linecap:round;stroke:#fff;stroke-miterlimit:10;stroke-width:2;opacity:.1" d="m62.76 36.94c4.24 8.74 10.71 10.21 16.09 10.21h5"></path><path style="fill:none;stroke-linecap:round;stroke:#fff;stroke-miterlimit:10;stroke-width:2;opacity:.1" d="m71 35c2.52 5.22 6.39 6.09 9.6 6.09h3"></path><circle r="3" fill="#515570" cy="62.28" cx="76"></circle><circle r="3" fill="#515570" cy="62.28" cx="52"></circle><ellipse ry="2.98" rx="4.58" opacity=".1" fill="#f85565" cy="69.67" cx="50.42"></ellipse><ellipse ry="2.98" rx="4.58" opacity=".1" fill="#f85565" cy="69.67" cx="77.58"></ellipse><g stroke-linejoin="round" stroke-linecap="round" fill="none"><path stroke-width="4" stroke="#fbc0aa" d="m64 67v4"></path><path stroke-width="2" stroke="#515570" opacity=".2" d="m55 56h-9.25"></path><path stroke-width="2" stroke="#515570" opacity=".2" d="m82 56h-9.25"></path></g><path opacity=".4" fill="#f85565" d="m64 84c5 0 7-3 7-3h-14s2 3 7 3z"></path><path fill="#f85565" d="m65.07 78.93-.55.55a.73.73 0 0 1 -1 0l-.55-.55c-1.14-1.14-2.93-.93-4.27.47l-1.7 1.6h14l-1.66-1.6c-1.34-1.4-3.13-1.61-4.27-.47z"></path></svg>
+                  
+                    </div>
+                    <div class="textContainer-profile">
+                      <p class="name-profile">Pepper Potts</p>
+                      <p class="profile-profile">Profile</p>
+                    </div>
+                  </div></li>
+               
+              </ul>
+            </div>
+             <a class="nav-link active Navtext" aria-current="page" href="#">
+              <i class="fa-solid fa-cart-shopping "></i
+            ></a>
+            <a class="nav-link active  " aria-current="page" href="#">
+              <i class="fa-solid fa-magnifying-glass"></i
+            ></a>
+          </div>
+          
             </li>
-            <li class="nav-item mx-3">
-              <a class="nav-link active text-center" aria-current="page" href="#">
-                <i class="fa-solid fa-cart-shopping"></i
-              ></a>
+            <!-- <li class="nav-item mx-3">
+             
             </li>
             <li class="nav-item mx-0">
-              <a class="nav-link active text-center" aria-current="page" href="#">
-                <i class="fa-solid fa-magnifying-glass"></i
-              ></a>
-            </li>
+              
+            </li> -->
+          </ul>
+
+          
+           
           </ul>
         </div>
       </div>
@@ -199,37 +232,31 @@
 
 
     <div class="container p-0">
-       <h3 class="px-5 pt-5 pb-4">The latest. <span class=" " style="color:grey;">Take a look at what’s new right now.</span>  </h3>
-    
-  
-
-
+       <h3 class="px-3 pt-5 pb-4">The latest. <span class=" " style="color:grey;">Take a look at what’s new right now.</span>  </h3>
     <div class="row row-100 contain-align-center ">
+
       <div class="col-lg-4  p-lg-0 px-md-4  px-4  d-flex justify-content-center align-items-center">
         <div style="width: 400px; height: 500px;   position: relative;" class="" >
           <div class="text-overlay"> <h3>iPhone 16 Pro</h3>
            <h5>Built for Apple Intelligence.</h5>
          </div>
           <img id="appleimg" class="img-fluid rounded-4" src="media/apple16.jpeg"  style="max-height: 470px ;width: 380px; object-fit: contain; ">  
-         
        </div>
       </div>
-      <div class="col-lg-4 p-lg-0 px-md-4  px-4 px-sm-0 d-flex justify-content-center align-items-center">
+
+      <div class="col-lg-4 p-lg-0 p-xl-0 px-md-4  px-4 px-sm-0 d-flex justify-content-center align-items-center">
         <div style="width:400px; height:500px;   position: relative;" class=" " >
-          <div class="text-overlay"> <h3 class="p-0 m-0">Vivo V29</h3>
-           <p style="font-weight: 500; font-size: 24px;" >Delight Every Moment</p>
-         </div>
-          <img id="appleimg" class="img-fluid rounded-4" style="max-height: 475px;width: 380px;  " src="https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1699348133880/e3525f8bc68c28e076f3a2db8746062d.jpg">  
          
+          <img id="appleimg" class="img-fluid rounded-4" style="max-height: 475px;width: 380px;  " src="media/huawei.jpg">  
        </div>
       </div>
-      <div class="col-lg-4 p-lg-0  px-md-4 px-4 px-sm-0 d-flex justify-content-center align-items-center">
+
+      <div class="col-lg-4 p-lg-0  px-md-4 px-4  px-sm-0 d-flex justify-content-center align-items-center">
         <div style="width: 400px; height: 500px;   position: relative;" class=" " >
           <div class="text-overlay"> <h3 class="text-bold p-0 m-0">OPPO F27 Pro+ 5G</h3>
            <h5>Dare to Flaunt.</h5>
          </div>
           <img id="appleimg" class="img-fluid rounded-4" src="https://www.oppo.com/content/dam/oppo/product-asset-library/f/f27-pro-plus-5g/assets/images-pack-1929_2594-d7111.jpg.avif" style="max-height: 475px;width: 380px; object-fit: cover; ">  
-         
        </div>
       </div>
 
@@ -238,8 +265,12 @@
     </div>
 
 </div>
-<div class="container " data-aos="fade-zoom-in"   data-aos-duration="1000">
-  <div class="row">
+
+
+
+
+<div class="container" data-aos="fade-zoom-in"   data-aos-duration="1000">
+  <div class="row row-100">
 
   <div class="col-12">
     <img   class="img-fluid rounded-4" src="https://i02.appmifile.com/794_operator_sg/18/03/2024/7f001946aad3dd8d8f0bb86bf3e4a7c8.jpg?f=webp">
@@ -249,155 +280,67 @@
 
 
 
-
-    
-
-
-    <!--Cards-->
-    <div class="container">
-      <div style="width: 15%; " > <img class="img-fluid" src="media/pngegg.png" alt="">
+<div class="container-fluid pb-5">
+  <h3 class="px-3 pt-5 pb-4">Offers made for you   </h3>
+  <div class="row row-100">
+    <div  class="col-md-4 offerImg mb-2" ><img class="img-fluid rounded-top-3"  src="https://image.oppo.com/content/dam/oppo/in/mkt/homepage-new-version/offers/offer1-v1.jpg.thumb.webp">
+    <label class=" px-2 bg-body-light w-100 rounded-bottom-3" style="background-color: #f6f6f6;"><h5 class="fw-semibold pt-2">Exchange Program</h5>
+    <p class="fw-normal pt-4 p-0 ">Upgrade Now and Save Up to $43000</p>
+    </label>
     </div>
-      <div class="row">  
-        <h3>T Series</h3>
-        <div class="col-md-3 ProductCol col-6">
-          <div class="card rounded-4" style="width: auto">
-            <img
-              class="card-img-top img1 img-fluid p-3"
-              src="media/vivo.webp"
-              alt="Card image cap"
-            />
-            <div class="card-body">
-              <h2
-                style="font-size: 26px"
-                class="card-title text-center text-bold"
-              >
-                T3 Lite 5G
-              </h2>
-              <p>4GB+128GB Vibrant Green</p>
-              <p class="text-center text-danger textPrice m-0">₹10,499.00</p>
-              <p class="text-center text-secondary textPrice1">
-                <b class="text-decoration-line-through">₹14,499.00 </b>
-                <span
-                  class="text-success border border-1 border-success rounded-3 p-1"
-                >
-                  -27%
-                </span>
-              </p>
-
-              <a href="#" class="btn Btnbuy">Buy Now</a>
-            </div>
-          </div>
-        </div>
-        <div class="ProductCol col-md-3 col-6">
-          <div class="card rounded-4" style="width: auto">
-            <img
-              class="card-img-top img-fluid img1 p-3"
-              src="https://exstatic-in.vivo.com/Oz84QB3Wo0uns8j1/in/1713261480685/1d7088825285b6052a6220d99cd658f2.png_w860-h860.webp"
-              alt="Card image cap"
-            />
-            <div class="card-body">
-              <h2
-                style="font-size: 26px"
-                class="card-title text-center text-bold"
-              >
-                T3x 5G
-              </h2>
-              <p>4GB+128GB Crimson Bliss</p>
-              <p class="text-center text-danger textPrice m-0">₹ 10,499.00</p>
-              <p class="text-center text-secondary textPrice1">
-                <b class="text-decoration-line-through">₹14,499.00</b>
-                <span
-                  class="text-success border border-1 border-success rounded-3 p-1"
-                >
-                  -27%
-                </span>
-              </p>
-
-              <a href="#" class="btn Btnbuy">Buy Now</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 ProductCol col-6">
-          <div class="card rounded-4 w-md-50" style="width: auto">
-            <img
-              class="card-img-top img1 p-3"
-              src="https://exstatic-in.vivo.com/Oz84QB3Wo0uns8j1/in/1710999704812/904e0f5f1afeed426dfa2c9a31f04166.png_w860-h860.webp"
-              alt="Card image cap"
-            />
-            <div class="card-body">
-              <h2
-                style="font-size: 26px"
-                class="card-title text-center text-bold"
-              >
-                T3 5G
-              </h2>
-              <p>8GB+128GB Crystal Flake</p>
-              <p class="text-center text-danger textPrice m-0">₹ 10,499.00</p>
-              <p class="text-center text-secondary textPrice1">
-                <b class="text-decoration-line-through">₹14,499.00</b>
-                <span
-                  class="text-success border border-1 border-success rounded-3 p-1"
-                >
-                  -27%
-                </span>
-              </p>
-
-              <a href="#"><button class="btn Btnbuy">Buy now</button> </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 ProductCol col-6">
-          <div class="card rounded-4 w-md-75" style="width: auto">
-            <img
-              class="card-img-top img1 p-3"
-              src="https://exstatic-in.vivo.com/Oz84QB3Wo0uns8j1/in/1724734422837/ff8487e47efc45bb630a5620c2ca18e5.png_w860-h860.webp"
-              alt="Card image cap"
-            />
-            <div class="card-body">
-              <h2
-                style="font-size: 26px"
-                class="card-title text-center text-bold"
-              >
-                T3 Pro 5G
-              </h2>
-              <p>8GB+256GB Sand Orange</p>
-              <p class="text-center text-danger textPrice m-0">₹ 10,499.00</p>
-              <p class="text-center text-secondary textPrice1">
-                <b class="text-decoration-line-through">₹14,499.00</b>
-                <span
-                  class="text-success border border-1 border-success rounded-3 p-1"
-                >
-                  -27%
-                </span>
-              </p>
-
-              <a href="#" class="btn Btnbuy">Buy Now</a>
-            </div>
-          </div>
-        </div>
-      </div>
+   
+    <div  class="col-md-4 offerImg   mb-2" ><img class="img-fluid rounded-top-3"  src="https://image.oppo.com/content/dam/oppo/in/mkt/homepage-new-version/offers/offers1.jpg.thumb.webp">
+    <label class=" px-2 bg-body-light w-100 rounded-bottom-3 " style="background-color: #f6f6f6;"><h5 class="fw-semibold pt-2">Welcome Gift</h5>
+    <p class="fw-normal pt-4 p-0 ">Limited-Time Offer For all new members.</p>
+    </label>
     </div>
+   
+    <div  class="col-md-4 offerImg  mb-2" ><img class="img-fluid rounded-top-3"  src="https://image.oppo.com/content/dam/oppo/in/mkt/homepage-new-version/offers/offer3-v1.jpg.thumb.webp">
+    <label class=" px-2 bg-body-light w-100 rounded-bottom-3" style="background-color: #f6f6f6;"><h5 class="fw-semibold pt-2 ">Education Discount</h5>
+    <p class="fw-normal pt-sm-4 pt-md-4  p-0 ">Students Get up to 64% OFF on Smart Phones</p>
+    </label>
+    </div>
+   
+ 
 
- <div class="container row row-100 d-flex flex-row gap-5">
+  </div>
+  
+</div>    
+
 
  
-    
-  
- </div>   
-   
-<!-- Remove the container if you want to extend the Footer to full width. -->
 
 
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <div class="">
+  
   <!-- Footer -->
   <footer
           class="text-center text-lg-start text-white"
           style="background-color: black"
           >
+          
     <!-- Grid container -->
     <div class="container p-4 pb-0">
       <!-- Section: Links -->
+       
       <section class="">
         <!--Grid row-->
         <div class="row">
@@ -505,7 +448,12 @@
                role="button"
                ><i class="fab fa-github"></i
               ></a>
+            
+
+             
+            
           </div>
+          
         </div>
         <!--Grid row-->
       </section>
@@ -528,8 +476,7 @@
 </div>
 <!-- End of .container -->
 
-</body>
-</html>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

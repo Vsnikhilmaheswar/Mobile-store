@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet " href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+ 
+    
+</head>
+<body>
+<!--Nav-->
+<nav class="navbar navbar-expand-lg bg-body-light pb-3 pt-3">
+  <div class="container-fluid  m-0">
+    <a class="navbar-brand text-bold " href="#"><i class="fa-solid fa-mobile"></i> Mobile Store </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+        <li class="nav-item mx-4">
+          <a class="nav-link active Navtext text-secondary text-center" aria-current="page" href="index.html"
+            ><span class="Navtext">Home</span></a
+          >
+        </li>
+        <li class="nav-item mx-4">
+          <a class="nav-link active Navtext text-secondary text-center" aria-current="page" href="Huawei.html"
+            ><span class="Navtext">Huawei</span></a
+          >
+        </li>
+        <li class="nav-item mx-4">
+          <a class="nav-link active Navtext  text-secondary text-center" aria-current="page" href="#"
+            > <span class="Navtext">Samsung</span></a
+          >
+        </li>
+        <li class="nav-item mx-4">
+          <a class="nav-link active Navtext  text-secondary text-center" aria-current="page" href="xiaomi.html"><span class="Navtext">Poco</span></a>
+        </li>
+        <li class="nav-item mx-5">
+          <a class="nav-link active   text-secondary text-center" aria-current="page" href="vivo.html"
+            ><span class="Navtext"> Vivo</span></a
+          >
+        </li> 
+        <li class="nav-item mx-5 m-auto  ">
+
+         <div class=" d-flex gap-5 mx-md-0 justify-content-center align-items-center "> 
+          <!-- <a class="nav-link active Navtext" aria-current="page" href="#">
+          <i class="fa-regular fa-user "></i>
+          
+        </a> -->
+        <div class="dropdown">
+          <button class="btn btn-transparent dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-regular fa-user "></i
+              >
+          </button>
+          <ul class="dropdown-menu">
+            <li>
+              <div class="card-profile">
+                <div class="profileImage-profile">
+                  <svg viewBox="0 0 128 128"><circle r="60" fill="transparent" cy="64" cx="64"></circle><circle r="48" fill="transparent" cy="64" cx="64"></circle><path fill="#191919" d="m64 14a32 32 0 0 1 32 32v41a6 6 0 0 1 -6 6h-52a6 6 0 0 1 -6-6v-41a32 32 0 0 1 32-32z"></path><path opacity="1" fill="#191919" d="m62.73 22h2.54a23.73 23.73 0 0 1 23.73 23.73v42.82a4.45 4.45 0 0 1 -4.45 4.45h-41.1a4.45 4.45 0 0 1 -4.45-4.45v-42.82a23.73 23.73 0 0 1 23.73-23.73z"></path><circle r="7" fill="#fbc0aa" cy="65" cx="89"></circle><path fill="#4bc190" d="m64 124a59.67 59.67 0 0 0 34.69-11.06l-3.32-9.3a10 10 0 0 0 -9.37-6.64h-43.95a10 10 0 0 0 -9.42 6.64l-3.32 9.3a59.67 59.67 0 0 0 34.69 11.06z"></path><path opacity=".3" fill="#356cb6" d="m45 110 5.55 2.92-2.55 8.92a60.14 60.14 0 0 0 9 1.74v-27.08l-12.38 10.25a2 2 0 0 0 .38 3.25z"></path><path opacity=".3" fill="#356cb6" d="m71 96.5v27.09a60.14 60.14 0 0 0 9-1.74l-2.54-8.93 5.54-2.92a2 2 0 0 0 .41-3.25z"></path><path fill="#fff" d="m57 123.68a58.54 58.54 0 0 0 14 0v-25.68h-14z"></path><path stroke-width="14" stroke-linejoin="round" stroke-linecap="round" stroke="#fbc0aa" fill="none" d="m64 88.75v9.75"></path><circle r="7" fill="#fbc0aa" cy="65" cx="39"></circle><path fill="#ffd8ca" d="m64 91a25 25 0 0 1 -25-25v-16.48a25 25 0 1 1 50 0v16.48a25 25 0 0 1 -25 25z"></path><path fill="#191919" d="m91.49 51.12v-4.72c0-14.95-11.71-27.61-26.66-28a27.51 27.51 0 0 0 -28.32 27.42v5.33a2 2 0 0 0 2 2h6.81a8 8 0 0 0 6.5-3.33l4.94-6.88a18.45 18.45 0 0 1 1.37 1.63 22.84 22.84 0 0 0 17.87 8.58h13.45a2 2 0 0 0 2.04-2.03z"></path><path style="fill:none;stroke-linecap:round;stroke:#fff;stroke-miterlimit:10;stroke-width:2;opacity:.1" d="m62.76 36.94c4.24 8.74 10.71 10.21 16.09 10.21h5"></path><path style="fill:none;stroke-linecap:round;stroke:#fff;stroke-miterlimit:10;stroke-width:2;opacity:.1" d="m71 35c2.52 5.22 6.39 6.09 9.6 6.09h3"></path><circle r="3" fill="#515570" cy="62.28" cx="76"></circle><circle r="3" fill="#515570" cy="62.28" cx="52"></circle><ellipse ry="2.98" rx="4.58" opacity=".1" fill="#f85565" cy="69.67" cx="50.42"></ellipse><ellipse ry="2.98" rx="4.58" opacity=".1" fill="#f85565" cy="69.67" cx="77.58"></ellipse><g stroke-linejoin="round" stroke-linecap="round" fill="none"><path stroke-width="4" stroke="#fbc0aa" d="m64 67v4"></path><path stroke-width="2" stroke="#515570" opacity=".2" d="m55 56h-9.25"></path><path stroke-width="2" stroke="#515570" opacity=".2" d="m82 56h-9.25"></path></g><path opacity=".4" fill="#f85565" d="m64 84c5 0 7-3 7-3h-14s2 3 7 3z"></path><path fill="#f85565" d="m65.07 78.93-.55.55a.73.73 0 0 1 -1 0l-.55-.55c-1.14-1.14-2.93-.93-4.27.47l-1.7 1.6h14l-1.66-1.6c-1.34-1.4-3.13-1.61-4.27-.47z"></path></svg>
+              
+                </div>
+                <div class="textContainer-profile">
+                  <p class="name-profile">Pepper Potts</p>
+                  <p class="profile-profile">Profile</p>
+                </div>
+              </div></li>
+           
+          </ul>
+        </div>
+         <a class="nav-link active Navtext" aria-current="page" href="#">
+          <i class="fa-solid fa-cart-shopping "></i
+        ></a>
+        <a class="nav-link active  " aria-current="page" href="#">
+          <i class="fa-solid fa-magnifying-glass"></i
+        ></a>
+      </div>
+      
+        </li>
+        <!-- <li class="nav-item mx-3">
+         
+        </li>
+        <li class="nav-item mx-0">
+          
+        </li> -->
+      </ul>
+
+      
+       
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <div style="width: 15%; "  class="mx-3 p-2">
+     <img class="img-fluid" src="https://i02.appmifile.com/930_operatorx_operatorx_xm/04/07/2024/3e49f982a9641e9f0e3e351927c61a77.png?thumb=1&f=webp&q=85" alt="">
+  </div>
+
+
+
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://i02.appmifile.com/805_operator_global/21/08/2024/fda46d84187b7a56f03250a64cb8a0c2.jpg?thumb=1&w=2560&q=85" 
+                     class="d-block w-100" alt="POCO F6 Pro">
+                
+                <div class="carousel-caption d-md-block d-flex flex-column " style="height: 100%; top: 0;">
+                  <label class="d-flex flex-column justify-content-center align-items-start mt-md-5">
+                    <h5 class="text-start fs-4 fs-md-2 fs-lg-1 mt-md-5 fw-bold">POCO F6 Pro</h5>
+                    <h6 class="text-start">HyperPower Evolved</h6>
+                    <p class="text-start"></p>
+                    <button class="btn PocoBtn ">Buy Now</button></label>
+                </div>
+              </div>
+              
+              
+          <div class="carousel-item">
+            <img src="https://i02.appmifile.com/591_operator_global/21/08/2024/459afcc4ce48335e96d4f2fac3d3209d.jpg?thumb=1&amp;w=5120&amp;f=webp&amp;q=85" class="d-block w-100" alt="...">
+          
+            <div class="carousel-caption d-md-block d-flex flex-column " style="height: 100%; top: 0;">
+                <label class="d-flex flex-column justify-content-center align-items-start mt-md-5">
+                  <h5 class="text-start fs-4 fs-md-2 fs-lg-1 mt-md-5 fw-bold">POCO F6</h5>
+                  <h6 class="text-start">Shaped by Speed</h6>
+                  <p class="text-start"></p>
+                  <button class="btn PocoBtn ">Buy Now</button></label>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://i02.appmifile.com/852_operator_global/21/08/2024/a48d7caf329d38460307a541c211152a.jpg?thumb=1&amp;w=5120&amp;f=webp&amp;q=85" class="d-block w-100" alt="...">
+         
+            <div class="carousel-caption d-md-block d-flex flex-column " style="height: 100%; top: 0;">
+                <label class="d-flex flex-column justify-content-center align-items-start mt-md-5">
+                  <h5 class="text-start fs-4 fs-md-2 fs-lg-1 mt-md-5 text-dark" >POCO Pad</h5>
+                  <h6 class="text-start text-dark"> Big Display. Bigger Plays.</h6>
+                  <p class="text-start"></p>
+                  <button class="btn PocoBtn ">Buy Now</button></label>
+              </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+ <div class="container">
+    <h2 class="text-center mt-5 fw-bold ">POCO F Series</h2>
+    
+ </div>
+<div class="container pt-5 pb-5">
+     <div class="row row-100">
+        
+      <div class="col-md-6 m-0">
+        
+        <div class="card bg-dark text-white" style="max-width: 600px;" style="   transition: transform 0.0s ease, box-shadow 0.0s ease;">
+        <img class="img-fluid card-img" src="https://i02.appmifile.com/987_operatorx_operatorx_opx/27/08/2024/ab3573477f9dfd27368a8f4d66de90dd.jpg?thumb=1&w=690&q=85" > 
+            <div class="card-img-overlay" style="background-color: rgba(0, 0, 0, 0.3)">
+              <h5 class="card-title fw-bold">POCO F6 Pro </h5>
+              <p class="card-text"> WQHD+ 120Hz Flow AMOLED</p>
+              <p >
+               
+              </p>
+           
+            </div>
+          </div>
+    
+    </div>
+<!-- 
+      <div class="col-md-3 col-6  card  " style="background-color: #0B1118;" >
+         <h5 class="card-title fw-bold pt-3 ">POCO F6 Pro </h5>
+         <p class="card-text">Flagship Snapdragon® 8s Gen 3</p>
+         
+        </div> -->
+
+        <div class="col-md-3 col-6">
+            <div class="card h-100" style="background-color: black;">
+              <div class="card-body">
+                <h5 class="card-title fw-bold text-light">POCO F6 </h5>
+                <p class="card-text text-light">Flagship Snapdragon® 8s Gen 3</p>
+                <img class="img-fluid " src="//i02.appmifile.com/660_operatorx_operatorx_opx/24/05/2024/1e6bbc99cfa14f74419fd63b4e573f64.png?thumb=1&w=240&q=85">
+              </div>
+            </div>
+          </div>
+        <div class="col-md-3 col-6">
+            <div class="card h-100" style="background-color: black;">
+              <div class="card-body">
+                <h5 class="card-title fw-bold text-light">POCO F5 Pro</h5>
+                <p class="card-text text-light">Flagship Snapdragon® 8s Gen 3</p>
+                <img class="img-fluid " src="//i02.appmifile.com/722_operatorx_operatorx_opx/20/08/2024/ac8b9bf541b7f29c3a15d6e42229479a.png?thumb=1&w=240&q=85"></div>
+              </div>
+            </div>
+          </div>
+
+
+</div>
+
+
+
+
+
+
+
+     <!--Cards-->
+     <div class="container">
+        <h2 class="text-center mt-5 fw-bold ">Redmi Series</h2>
+        <div class="row">  
+       
+          <div class="col-md-3 ProductCol col-6">
+            <div class="card rounded-4" style="width: auto">
+              <img
+                class="card-img-top img1 img-fluid p-3"
+                src="https://i02.appmifile.com/10_operatorx_operatorx_opx/30/08/2024/d1c6e1733370c9ac6182ab5613bfde2c.png?thumb=1&w=440&f=webp&q=85"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h2
+                  style="font-size: 26px"
+                  class="card-title text-center text-bold"
+                >
+                  Redmi 14 C
+                </h2>
+                <p>8+128 GB Blue Mist</p>
+                <p class="text-center text-danger textPrice m-0">₹10,499.00</p>
+                <p class="text-center text-secondary textPrice1">
+                  <b class="text-decoration-line-through">₹14,499.00 </b>
+                  <span
+                    class="text-success border border-1 border-success rounded-3 p-1"
+                  >
+                    -27%
+                  </span>
+                </p>
+  
+                <a href="#" class="btn Btnbuy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="ProductCol col-md-3 col-6">
+            <div class="card rounded-4" style="width: auto">
+              <img
+                class="card-img-top img-fluid img1 p-3"
+                src="https://exstatic-in.vivo.com/Oz84QB3Wo0uns8j1/in/1713261480685/1d7088825285b6052a6220d99cd658f2.png_w860-h860.webp"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h2
+                  style="font-size: 26px"
+                  class="card-title text-center text-bold"
+                >
+                  T3x 5G
+                </h2>
+                <p>4GB+128GB Crimson Bliss</p>
+                <p class="text-center text-danger textPrice m-0">₹ 20,499.00</p>
+                <p class="text-center text-secondary textPrice1">
+                  <b class="text-decoration-line-through">₹14,499.00</b>
+                  <span
+                    class="text-success border border-1 border-success rounded-3 p-1"
+                  >
+                    -27%
+                  </span>
+                </p>
+  
+                <a href="#" class="btn Btnbuy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 ProductCol col-6">
+            <div class="card rounded-4 w-md-50" style="width: auto">
+              <img
+                class="card-img-top img1 p-3"
+                src="https://i02.appmifile.com/861_operatorx_operatorx_opx/06/09/2024/81bc431668bddec2805ee43d10624180.png?thumb=1&w=440&f=webp&q=85"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h2
+                  style="font-size: 26px"
+                  class="card-title text-center text-bold"
+                >
+                Redmi 13 Pro+
+                </h2>
+                <p>8GB+128GB Crystal Flake</p>
+                <p class="text-center text-danger textPrice m-0">₹ 10,499.00</p>
+                <p class="text-center text-secondary textPrice1">
+                  <b class="text-decoration-line-through">₹14,499.00</b>
+                  <span
+                    class="text-success border border-1 border-success rounded-3 p-1"
+                  >
+                    -27%
+                  </span>
+                </p>
+  
+                <a href="#"><button class="btn Btnbuy">Buy now</button> </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 ProductCol col-6">
+            <div class="card rounded-4 w-md-75" style="width: auto">
+              <img
+                class="card-img-top img1 p-3"
+                src="https://exstatic-in.vivo.com/Oz84QB3Wo0uns8j1/in/1724734422837/ff8487e47efc45bb630a5620c2ca18e5.png_w860-h860.webp"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h2
+                  style="font-size: 26px"
+                  class="card-title text-center text-bold"
+                >
+                  T3 Pro 5G
+                </h2>
+                <p>8GB+256GB Sand Orange</p>
+                <p class="text-center text-danger textPrice m-0">₹ 10,499.00</p>
+                <p class="text-center text-secondary textPrice1">
+                  <b class="text-decoration-line-through">₹14,499.00</b>
+                  <span
+                    class="text-success border border-1 border-success rounded-3 p-1"
+                  >
+                    -27%
+                  </span>
+                </p>
+  
+                <a href="#" class="btn Btnbuy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+  <div class="">
+    <!-- Footer -->
+    <footer
+            class="text-center text-lg-start text-white"
+            style="background-color: black"
+            >
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">
+                Mobile Store
+              </h6>
+              <p>
+                "Your trusted destination for the latest mobile phones and accessories, offering unbeatable prices and exceptional customer service."
+              </p>
+            </div>
+            <!-- Grid column -->
+  
+            <hr class="w-100 clearfix d-md-none" />
+  
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+              <p>
+                <a class="text-white ">Iphone</a>
+              </p>
+              <p>
+                <a class="text-white">Vivo</a>
+              </p>
+              <p>
+                <a class="text-white">Xiaomi
+  
+                </a>
+              </p>
+              <p>
+                <a class="text-white">Pixel</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+  
+            <hr class="w-100 clearfix d-md-none" />
+  
+            <!-- Grid column -->
+            <hr class="w-100 clearfix d-md-none" />
+  
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+              <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+              <p><i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
+              <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+              <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Follow us</h6>
+  
+              <!-- Facebook -->
+              <a
+                 class="btn btn-primary btn-floating m-1"
+                 style="background-color: #3b5998"
+                 href="#!"
+                 role="button"
+                 ><i class="fab fa-facebook-f"></i
+                ></a>
+  
+              <!-- Twitter -->
+              <a
+                 class="btn btn-primary btn-floating m-1"
+                 style="background-color: #55acee"
+                 href="#!"
+                 role="button"
+                 ><i class="fab fa-twitter"></i
+                ></a>
+  
+              <!-- Google -->
+              <a
+                 class="btn btn-primary btn-floating m-1"
+                 style="background-color: #dd4b39"
+                 href="#!"
+                 role="button"
+                 ><i class="fab fa-google"></i
+                ></a>
+  
+              <!-- Instagram -->
+              <a
+                 class="btn btn-primary btn-floating m-1"
+                 style="background-color: #ac2bac"
+                 href="#!"
+                 role="button"
+                 ><i class="fab fa-instagram"></i
+                ></a>
+  
+              <!-- Linkedin -->
+              <a
+                 class="btn btn-primary btn-floating m-1"
+                 style="background-color: #0082ca"
+                 href="#!"
+                 role="button"
+                 ><i class="fab fa-linkedin-in"></i
+                ></a>
+              <!-- Github -->
+              <a
+                 class="btn btn-primary btn-floating m-1"
+                 style="background-color: #333333"
+                 href="#!"
+                 role="button"
+                 ><i class="fab fa-github"></i
+                ></a>
+            </div>
+          </div>
+          <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+      </div>
+      <!-- Grid container -->
+  
+      <!-- Copyright -->
+      <div
+           class="text-center p-3"
+           style="background-color: rgba(0, 0, 0, 0.2)"
+           >
+        © 2024 Copyright:
+        <a class="text-white" href="#"
+           >MobileStore.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+  </div>
+  <!-- End of .container -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+<style>
+ nav{
+  background: #fff;
+ }
+body{
+
+    background-color: #7f7e7a24;
+}</style>
+</html>

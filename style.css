@@ -1,7 +1,7 @@
 * {
     /* font-family: "Roboto", Arial, sans-serif; */
     font-family: "Montserrat", sans-serif;
-
+   
   
   
   /* background-color: rgb(245, 245, 248); */
@@ -22,7 +22,7 @@ padding-top:30px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .card:hover {
-  transform: translateY(-10px); /* Lift the card */
+  transform: translateY(-5px); /* Lift the card */
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
 }
 
@@ -131,12 +131,118 @@ padding-top:30px;
 
 .Navtext{
   font-weight:500 ;
-  
+ 
   transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .Navtext:hover{
+   color: black
+
   
-  color: black;
-  
+
 }
+
+.fa-user:hover , .fa-cart-shopping:hover , .fa-magnifying-glass:hover
+{
+  text-shadow: 0px 0px 15px rgba(31, 31, 31, 0.946); 
+}
+
+
+.offerImg{
+  transition: transform 0.5s ease;
+}
+.offerImg:hover{
+  transform: scale(1.02);
+}
+
+
+.image{
+  border-radius: 32px;
+}
+
+/* From Uiverse.io by alexmaracinaru */ 
+.PocoBtn{
+  background:#FFD400;
+  font-weight: 600;
+  transition: color 0.5s ease;
+  border-radius: 0;
+}
+.PocoBtn:hover{
+  background:#ffd500e9;
+  font-weight: 600;
+  color:black;
+  border-radius: 0;
+}
+
+@media (max-width: 768px) {
+  .PocoBtn{
+    
+   display: none;
+  }
+
+}
+
+
+
+
+/* From Uiverse.io by alexmaracinaru */ 
+.card-1 {
+  width: auto;
+  background: white;
+  padding: 1px;
+  border-radius: 6px;
+}
+
+.card-image-1 {
+  background-color: rgb(236, 236, 236);
+  width: 100%;
+  height: auto;
+  border-radius: 6px 6px 0 0;
+}
+
+.card-image-1:hover {
+  transform: scale(0.98);
+}
+
+.category-1 {
+  text-transform: uppercase;
+  font-size: 0.7em;
+  font-weight: 600;
+  color: rgb(63, 121, 230);
+  padding: 10px 7px 0;
+}
+
+.category-1:hover {
+  cursor: pointer;
+}
+
+.heading-1 {
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  font-size: 20px;
+}
+
+.heading-1:hover {
+  cursor: pointer;
+}
+
+.author-1 {
+  color: gray;
+  font-weight: 400;
+  font-size: 11px;
+  padding-top: 20px;
+}
+
+.name-1 {
+  font-weight: 600;
+}
+
+.name-1:hover {
+  cursor: pointer;
+}
+
+.radius{
+  border-radius: px;
+}
+
